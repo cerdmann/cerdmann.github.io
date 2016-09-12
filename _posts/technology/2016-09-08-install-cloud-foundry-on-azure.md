@@ -27,7 +27,7 @@ Throughout his career as a musician, Johnny Cash filled our lives with wisdom. W
 In fact, many enterprises today are following Johnny's advice when outfitting their development teams. They are building their Platform as a Service (PaaS) <a href="https://play.google.com/music/preview/T7d4o3gr6arqoojow32jvc3qnji?lyrics=1" target="\_blank">one piece at a time</a>. This, however, isn't the only option. You can help your development teams work faster and more safely **today** using <a href="https://pivotal.io" target="\_blank">Pivotal Cloud Foundry (PCF)</a> on top of <a href="https://azure.microsoft.com" target="\_blank">Microsoft Azure</a>.
 
 # Overview
-1. [Prerequisites]({% post_url 2016-09-09-install-cloud-foundry-on-azure %})
+1. [Prerequisites]({% post_url 2016-09-08-install-cloud-foundry-on-azure %})
 2. Install - *Coming Soon*
 3. Take it for a test run - *Coming Soon*
 
@@ -66,7 +66,7 @@ PCF will need increased resources on your subscription. In particular, you will 
   <iframe src="https://www.youtube.com/embed/mjCRUvX2D0E?rel=0;modestbranding=1;fs=0;cc_load_policy=1;controls=0"></iframe>
 
   Of those 53, 15 Vms are used during the install phase to create builds and run errands such as tests. Once the deploy is finished, those 15 VMs are destroyed. This leaves your install with 38 VMs under its control. We'll dive a bit into the architecture later and you'll see the reason for those VMs.
-  
+
 * 1 storage account - This setup is for a 90 day trial version of PCF. In an actual production install, you will utilize multiple storage accounts
 * 3 public IP addresses
 * 1 jumpbox VM that runs the deployment
