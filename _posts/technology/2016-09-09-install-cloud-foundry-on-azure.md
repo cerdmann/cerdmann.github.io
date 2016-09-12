@@ -42,6 +42,7 @@ Many of the preliminary steps in this article are taken from the <a href="https:
 	<a href="{{ site.url }}/images/pcf-on-azure/JoinPivotalNetworkForm-1200.jpg"><img src="{{ site.url }}/images/pcf-on-azure/JoinPivotalNetworkForm-600.jpg" alt="image"></a>
 </figure>
 Your automated PCF install will need access to the install packages and the ability to accept the EULA on your behalf. You can create an account by navigating to <a href="https://network.pivotal.io" target="\_blank">Pivotal Network</a>. Simply:
+
 * Click on one of the **Join** buttons to begin
 * Fill out the form to create a login
 
@@ -60,10 +61,12 @@ Once your account is created, click on the dropdown arrow next to your name. In 
 Use your existing account, or setup a new account on <a href="https://azure.microsoft.com/en-us/free/" target="\_blank">Microsoft Azure</a>.
 
 PCF will need increased resources on your subscription. In particular, you will need:
+
 * 53 VMs (I know what you are thinking)
   <iframe src="https://www.youtube.com/embed/mjCRUvX2D0E?rel=0;modestbranding=1;fs=0;cc_load_policy=1;controls=0"></iframe>
 
   Of those 53, 15 Vms are used during the install phase to create builds and run errands such as tests. Once the deploy is finished, those 15 VMs are destroyed. This leaves your install with 38 VMs under its control. We'll dive a bit into the architecture later and you'll see the reason for those VMs.
+  
 * 1 storage account - This setup is for a 90 day trial version of PCF. In an actual production install, you will utilize multiple storage accounts
 * 3 public IP addresses
 * 1 jumpbox VM that runs the deployment

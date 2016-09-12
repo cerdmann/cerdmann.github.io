@@ -88,4 +88,4 @@ I submitted these requests on a Saturday at about 2:30 in the afternoon. Here is
 * Saturday 2:30pm: I received an email from Microsoft confirming the request
 * Saturday 4:00pm: I received an email from a Microsoft support engineer stating that he is assigned to my tickets
 * Saturday 4:15pm: I received a call from my Microsoft support engineer talking through and confirming my requests.
-* Saturday 7:25pm: I received an email from my Microsoft support engineer stating that my quota has been increased for the DV1 and DV2 series. We are still waiting to hear on the DS series.
+* Saturday 7:25pm: I received an email from my Microsoft support engineer stating that my quota has been increased for the DV1 and DV2 series. I am still waiting to hear on the DS series.
