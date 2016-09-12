@@ -15,7 +15,8 @@ share: true
 ---
 
 Pivotal Cloud Foundry (PCF) needs increased resources on your Azure subscription. When installing PCF for the first time, these steps should help you get the quote increase correct.
->Please note that in order to request a quota increase, you will need to have a Pay-As-You-Go account. If you are starting off with a free account, you need to switch over. As of the time of writing this article, your free account credit still transfers to the paid account and billing does not kick in until that credit is consumed.
+
+> Please note that in order to request a quota increase, you will need to have a Pay-As-You-Go account. If you are starting off with a free account, you need to switch over. As of the time of writing this article, your free account credit still transfers to the paid account and billing does not kick in until that credit is consumed.
 
 # Start a Support Request
 
