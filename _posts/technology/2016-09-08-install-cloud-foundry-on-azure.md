@@ -170,7 +170,10 @@ docker cp 08639683cc69:/azure-credentials.json ~/
 
 Protect this file. Please store it in a secure location because it contains sensitive credentials. Once the copy is complete, go ahead and exit out of your docker container.
 
-To see this in action, please check out the <a href="https://youtu.be/Sc3gdIMi_Ec" target="\_blank">video</a>.
+If you need any clarification on the above steps, here is a <a href="https://youtu.be/Sc3gdIMi_Ec" target="\_blank">video</a> demonstrating the full workflow:
+
+<iframe src="https://www.youtube.com/embed/Sc3gdIMi_Ec?rel=0;modestbranding=1" allowfullscreen></iframe>
+
 
 ### Create a public key
 
