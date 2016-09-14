@@ -124,4 +124,4 @@ Keep checking back. When you see the Apps Manager Url and Admin password (after 
 
 <img alt="Install Complete" style="border:2px solid #000" src="{{ site.url }}/images/install-pcf-on-azure/Install-Complete-1200.jpg"/>
 
-Go ahead and put the url into a browser. Use admin as the user name and 
+Go ahead and put the url into a browser. Use admin as the user name and the above password to log in.
