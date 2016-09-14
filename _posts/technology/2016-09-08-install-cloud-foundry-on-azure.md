@@ -28,7 +28,7 @@ In fact, many enterprises today are following Johnny's advice when outfitting th
 
 # Overview
 1. [Prerequisites]({% post_url 2016-09-08-install-cloud-foundry-on-azure %})
-2. Install - *Coming Soon*
+2. [Install]({% post_url 2016-09-12-install-cloud-foundry-on-azure-part2 %})
 3. Take it for a test run - *Coming Soon*
 
 # Prerequisites
